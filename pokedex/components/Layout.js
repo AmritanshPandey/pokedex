@@ -1,18 +1,17 @@
-import Head from 'next/head';
+import Head from 'next/Head';
 
-
-export default function Layout({title}) {
+export default function Layout({title, children}) {
     return (
-        <div>
+        <div className="bg-gray-300">
            <Head>
-        <title>{title}</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+              <title>{title}</title>
+              <link rel="icon" href="/favicon.ico" />
+           </Head>
 
-      <main>
-            
-      </main>
- 
+            <main className="container mx-auto max-w-xl pt-8 min-h-screen">
+              {children}  
+            </main>
+
         </div>
     )
 }

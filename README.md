@@ -1,2 +1,2 @@
 # pokedex
-Pokédex REPLICA with Next.js and the PokéAPI
+Pokédex REPLICA with Next.js and Tailwind CSS using the PokéAPI
